@@ -6,8 +6,8 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DominatingColor {
-    private int red;
-    private int green;
-    private int blue;
-    private int alpha;
+    private Integer red;
+    private Integer green;
+    private Integer blue;
+    private Integer alpha;
 }

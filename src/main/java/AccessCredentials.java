@@ -4,8 +4,8 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AccessCredentials {
-    private String private_key;
-    private String redirect_uri;
+    private String privateKey;
+    private String redirectUri;
     private int storeId;
     private String accessToken;
 }

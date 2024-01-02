@@ -7,6 +7,6 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OriginalImage {
     private String url;
-    private int width;
-    private int height;
+    private Integer width;
+    private Integer height;
 }

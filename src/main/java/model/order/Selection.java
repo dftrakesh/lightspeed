@@ -7,6 +7,6 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Selection {
     private String selectionTitle;
-    private int selectionModifier;
+    private Integer selectionModifier;
     private String selectionModifierType;
 }

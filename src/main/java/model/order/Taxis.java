@@ -7,12 +7,12 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Taxis {
     private String name;
-    private int value;
-    private double total;
-    private double taxOnDiscountedSubtotal;
-    private int taxOnShipping;
-    private boolean includeInPrice;
-    private int sourceTaxRateId;
+    private Integer value;
+    private Double total;
+    private Double taxOnDiscountedSubtotal;
+    private Integer taxOnShipping;
+    private Boolean includeInPrice;
+    private Integer sourceTaxRateId;
     private String sourceTaxRateType;
     private String taxClassName;
     private String taxClassCode;

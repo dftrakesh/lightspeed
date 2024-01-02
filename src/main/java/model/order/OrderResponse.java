@@ -7,9 +7,9 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OrderResponse {
-    private int total;
-    private int count;
-    private int offset;
-    private int limit;
+    private Integer total;
+    private Integer count;
+    private Integer offset;
+    private Integer limit;
     private List<Order> items;
 }

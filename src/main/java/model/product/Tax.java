@@ -7,8 +7,7 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Tax {
-    private boolean taxable;
-    private int defaultLocationIncludedTaxRate;
-    private List<Object> enabledManualTaxes;
+    private Boolean taxable;
+    private Integer defaultLocationIncludedTaxRate;
     private String taxClassCode;
 }

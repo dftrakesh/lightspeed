@@ -11,5 +11,5 @@ public class Option {
     private String name;
     private NameTranslated nameTranslated;
     private List<Choice> choices;
-    private boolean required;
+    private Boolean required;
 }

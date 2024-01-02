@@ -7,6 +7,5 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RelatedProducts {
-    private List<Object> productIds;
     private RelatedCategory relatedCategory;
 }

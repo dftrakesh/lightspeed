@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class RelatedCategory {
-    private boolean enabled;
-    private int categoryId;
-    private int productCount;
+    private Boolean enabled;
+    private Integer categoryId;
+    private Integer productCount;
 }

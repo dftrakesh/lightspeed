@@ -8,6 +8,6 @@ import lombok.Data;
 public class Choice {
     private String text;
     private TextTranslated textTranslated;
-    private int priceModifier;
+    private Integer priceModifier;
     private String priceModifierType;
 }

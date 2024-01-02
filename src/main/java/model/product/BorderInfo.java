@@ -7,5 +7,5 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BorderInfo {
     private DominatingColor dominatingColor;
-    private boolean homogeneity;
+    private Boolean homogeneity;
 }

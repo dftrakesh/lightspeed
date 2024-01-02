@@ -7,8 +7,8 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Image {
     private String id;
-    private boolean isMain;
-    private int orderBy;
+    private Boolean isMain;
+    private Integer orderBy;
     private String image160pxUrl;
     private String image400pxUrl;
     private String image800pxUrl;

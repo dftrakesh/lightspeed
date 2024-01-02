@@ -9,5 +9,4 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Media {
     private List<Image> images;
-    private List<Object> videos;
 }

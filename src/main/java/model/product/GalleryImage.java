@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GalleryImage {
-    private int id;
+    private Integer id;
     private String url;
     private String thumbnail;
     private String originalImageUrl;
@@ -14,8 +14,8 @@ public class GalleryImage {
     private String hdThumbnailUrl;
     private String thumbnailUrl;
     private String smallThumbnailUrl;
-    private int width;
-    private int height;
-    private int orderBy;
+    private Integer width;
+    private Integer height;
+    private Integer orderBy;
     private BorderInfo borderInfo;
 }
