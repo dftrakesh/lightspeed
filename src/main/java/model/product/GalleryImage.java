@@ -17,5 +17,4 @@ public class GalleryImage {
     private Integer width;
     private Integer height;
     private Integer orderBy;
-    private BorderInfo borderInfo;
 }

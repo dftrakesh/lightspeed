@@ -17,12 +17,10 @@ public class Item {
     private String sku;
     private Integer quantity;
     private String shortDescription;
-    private ShortDescriptionTranslated shortDescriptionTranslated;
     private Double tax;
     private Integer shipping;
     private Integer quantityInStock;
     private String name;
-    private NameTranslated nameTranslated;
     private Boolean isShippingRequired;
     private Integer weight;
     private Boolean trackQuantity;

@@ -5,12 +5,12 @@
 <modelVersion>4.0.0</modelVersion>
 
 <groupId>io.github.dftrakesh</groupId>
-<artifactId>lightspeed</artifactId>
+<artifactId>lightspeed-e-series</artifactId>
 <version>1.0</version>
 <packaging>jar</packaging>
 
-<name>lightspeed</name>
-<description>LightSpeed API using JDK 11</description>
+<name>LightSpeed (E-Series)</name>
+<description>LightSpeed (E-Series) API using JDK 11</description>
 <url>https://github.com/dftrakesh/lightspeed</url>
 
 <licenses>
@@ -60,11 +60,11 @@
         <artifactId>jackson-dataformat-xml</artifactId>
         <version>2.11.1</version>
     </dependency>
-    <dependency>
-        <groupId>org.codehaus.jettison</groupId>
-        <artifactId>jettison</artifactId>
-        <version>1.4.0</version>
-    </dependency>
+<!--    <dependency>-->
+<!--        <groupId>org.codehaus.jettison</groupId>-->
+<!--        <artifactId>jettison</artifactId>-->
+<!--        <version>1.4.0</version>-->
+<!--    </dependency>-->
 </dependencies>
 
 <build>

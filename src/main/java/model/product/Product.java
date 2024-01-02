@@ -14,7 +14,6 @@ public class Product {
     private Boolean unlimited;
     private Boolean inStock;
     private String name;
-    private NameTranslated nameTranslated;
     private Integer price;
     private Integer priceInProductList;
     private Integer defaultDisplayedPrice;
@@ -44,17 +43,13 @@ public class Product {
     private String hdThumbnailUrl;
     private String originalImageUrl;
     private OriginalImage originalImage;
-    private BorderInfo borderInfo;
     private String description;
-    private DescriptionTranslated descriptionTranslated;
     private List<GalleryImage> galleryImages;
     private Media media;
     private List<Number> categoryIds;
     private Integer defaultCategoryId;
     private String seoTitle;
-    private SeoTitleTranslated seoTitleTranslated;
     private String seoDescription;
-    private SeoDescriptionTranslated seoDescriptionTranslated;
     private RelatedProducts relatedProducts;
     private Boolean showDeliveryTimeInStorefront;
     private Integer volume;

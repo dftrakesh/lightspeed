@@ -7,7 +7,6 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Choice {
     private String text;
-    private TextTranslated textTranslated;
     private Integer priceModifier;
     private String priceModifierType;
 }

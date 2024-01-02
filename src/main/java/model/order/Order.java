@@ -48,7 +48,6 @@ public class Order {
     private Integer updateTimestamp;
     private List<Item> items;
     private Boolean shippingLabelAvailableForShipment;
-    private AdditionalInfo additionalInfo;
     private Integer ticket;
     private Boolean hidden;
     private Boolean disableAllCustomerNotifications;
