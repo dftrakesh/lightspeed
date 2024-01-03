@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ProductInventory {
-     private Integer updateCount;
+public class ProductInventoryRequest {
+    private Integer quantityDelta;
 }
