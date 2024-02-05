@@ -75,7 +75,7 @@ public class LightSpeedSDK {
     @SneakyThrows
     protected HttpRequest put(URI uri, Object jsonBody) {
         return HttpRequest.newBuilder(uri)
-                .header(AUTHORIZATION, "Bearer " +  accessCredentials.getAccessToken())
+                .header(AUTHORIZATION, "Bearer " + accessCredentials.getAccessToken())
                 .header(HTTP_REQUEST_PROPERTY_CONTENT_TYPE, HTTP_REQUEST_CONTENT_TYPE_JSON)
                 .header(INVENTORY_REQUEST_CACHE, INVENTORY_REQUEST_CACHE_VALUE)
                 .PUT(HttpRequest.BodyPublishers.ofString(toString(jsonBody)))
@@ -85,16 +85,5 @@ public class LightSpeedSDK {
     @SneakyThrows
     public String toString(Object object) {
         return objectMapper.writeValueAsString(object);
-    }
-
-    @SneakyThrows
-    protected HttpRequest post(URI uri, final Object object) {
-        String jsonBody = objectMapper.writeValueAsString(object);
-        return HttpRequest.newBuilder(uri)
-                .header(AUTHORIZATION,"Bearer " +  accessCredentials.getAccessToken())
-                .header(HTTP_REQUEST_PROPERTY_CONTENT_TYPE, HTTP_REQUEST_CONTENT_TYPE_JSON)
-                .header(INVENTORY_REQUEST_CACHE, INVENTORY_REQUEST_CACHE_VALUE)
-                .POST(HttpRequest.BodyPublishers.ofString(jsonBody))
-                .build();
     }
 }
