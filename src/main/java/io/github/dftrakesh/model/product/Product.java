@@ -11,6 +11,7 @@ public class Product {
     private Integer id;
     private String sku;
     private String thumbnailUrl;
+    private Integer quantity;
     private Boolean unlimited;
     private Boolean inStock;
     private String name;
